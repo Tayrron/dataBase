@@ -1,5 +1,6 @@
 function ggg(a,b) {
-    console.log(a ** b);
+return b > 5 ? a + b : a**b
+
 }
 
-ggg(2,3)
+console.log(ggg(23,3))
